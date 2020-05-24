@@ -23,8 +23,8 @@ for i in range(50):
     Perceptron(0, 1, 1)  # False or true
     Perceptron(0, 0, 0)  # False or false
 
-x = 0
-y = 0
+x = 0 #tutaj podaj swoje dane do testowania 0 lub 1
+y = 0 #tutaj podaj swoje dane do testowania 0 lub 1
 outputP = x*weights[0] + y*weights[1] + bias*weights[2]
 if outputP > 0 : #activation function
    outputP = 1
