@@ -7,10 +7,10 @@ weights = [random.random() for w in range(3)]
 def Perceptron(input1, input2, expected_output):
    perceptron_output = input1*weights[0]+input2*weights[1]+bias*weights[2]
 
-   if perceptron_output > 0: #activation function (here Heaviside)
-      perceptron_output = 1
-   else:
-       perceptron_output = 0
+   # Tutaj dopisz kod, ktory bedzie zwracał obliczoną funkcje aktywacji (Heaviside), dla zmiennej perceptron_output
+   #...
+   #...
+   #...
 
    error = expected_output - perceptron_output
    weights[0] += error * input1 * lr
